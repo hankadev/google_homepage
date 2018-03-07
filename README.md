@@ -1,4 +1,4 @@
-This is my implementation of Google homepage.
-[view project in browser](https://hanny21.github.io/google_homepage/)
+This is my implementation of Google homepage.__
+[view project in browser](https://hanny21.github.io/google_homepage/)__
 
-[Odin Project Website](https://www.theodinproject.com/courses/web-development-101/lessons/html-css)
+From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
