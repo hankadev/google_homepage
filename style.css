@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.search_form {
+  text-align: center;
+}
+
+.searchField {
+  line-height: 3em;
+  margin: 20px 0px 20px 0px;
+  min-width: 500px;
+  border: 1px solid #eee;
+  -webkit-box-shadow: 3px 3px 5px #eee;
+  box-shadow: 3px 3px 5px #eee;
+}
+
+.button {
+  padding: 10px;
+  color: #777;
+  font-weight: bold;
+  background-color: #eee;
+  border: none;
+  margin-right: 10px;
+}
+
+.button:hover {
+  border: 1px solid #ccc;
+  color: #000;
+}
