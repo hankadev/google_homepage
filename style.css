@@ -1,6 +1,25 @@
 body {
   margin: 0;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100vh;
+  font-family: "Arial", sans-serif;
+}
+
+main, header {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+header {
+  text-align: right;
 }
 
 .logo {
@@ -33,4 +52,59 @@ body {
 .button:hover {
   border: 1px solid #ccc;
   color: #000;
+}
+
+footer {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  background-color: #f2f2f2;
+  min-width: 500px;
+  border-top: 1px solid #eee;
+}
+
+.left, .right {
+  width: 100%;
+}
+
+.right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media all and (min-width: 800px) {
+  .left {
+    width: 40%;
+  }
+  .right {
+    width: 60%;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+.leftLink {
+  margin-left: 10px;
+}
+
+.rightLink {
+  margin-right: 10px;
+}
+
+.leftLink, .rightLink {
+  color: #666;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 2em;
+}
+
+.leftLink:hover, .rightLink:hover {
+  text-decoration: underline;
 }
