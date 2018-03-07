@@ -21,6 +21,7 @@ main, header {
 header {
   text-align: right;
   margin-top: 10px;
+  max-height: 25vh;
 }
 
 .headerLink {
