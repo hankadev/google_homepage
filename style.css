@@ -20,6 +20,28 @@ main, header {
 
 header {
   text-align: right;
+  margin-top: 10px;
+}
+
+.headerLink {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #666;
+  font-size: 13px;
+  line-height: 2em;
+}
+
+.headerLink:hover {
+  text-decoration: underline;
+}
+
+.headerBtn {
+  margin-right: 10px;
+  padding: 8px;
+  color: #fff;
+  background-color: #48f;
+  font-weight: bold;
+  border: none;
 }
 
 .logo {
