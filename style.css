@@ -106,6 +106,16 @@ footer {
   border-top: 1px solid #eee;
 }
 
+.country {
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  color: #666;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 2em;
+  margin-left: 10px;
+}
+
 .left, .right {
   width: 100%;
 }
