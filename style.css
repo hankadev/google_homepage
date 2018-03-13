@@ -77,6 +77,21 @@ header {
   color: #000;
 }
 
+p {
+  text-align: center;
+  font-size: 13px;
+  line-height: 28px;
+}
+
+p a {
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 footer {
   -ms-flex-negative: 0;
   flex-shrink: 0;
